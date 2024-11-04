@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejection Notice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+        .email-header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #dc3545;
+        }
+        .email-header img {
+            width: 120px;
+        }
+        .email-body {
+            padding: 20px;
+        }
+        .email-footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="email-header">
+            <img src="https://i.ibb.co/hHk4bjx/snsihub-new-logo-1x.png" alt="Company Logo">
+            <h2>Application Update</h2>
+        </div>
+        <div class="email-body">
+            <p>Dear {{ candidate_name }},</p>
+            <p>Thank you for your interest in joining {{ company_name }}. After careful consideration, we regret to inform you that we have decided to move forward with other candidates for this position.</p>
+            <p>We appreciate the time and effort you invested in your application and wish you the best in your job search.</p>
+        </div>
+        <div class="email-footer">
+            <p>&copy; 2025 .SNS iNNovation Hub. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
